@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
 
   spec.swift_versions = ['5.0', '5.1', '5.2', '5.3']
 
-  spec.source       = { :git => "https://github.com/TeskaLabs/SeaCat-iOS-G3.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:Lweek/SeaCat-iOS-G3.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "seacat/**/*.{swift}"
 
